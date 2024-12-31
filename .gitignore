@@ -5,6 +5,14 @@
 # DLL files
 *.dll
 
+# Executable files
+*.exe
+*.pdb
+*.sln
+
+# Bỏ qua thư mục .vs
+.vs/
+
 # Visual Studio files
 *.suo
 *.user
@@ -32,5 +40,9 @@ packages/
 .DS_Store
 Thumbs.db
 
-# Ignore all xml files in specific folder
+# Ignore all xml files in a specific folder
 path/to/specific/folder/*.xml
+
+# Ignore backup files
+*~ 
+*.bak
